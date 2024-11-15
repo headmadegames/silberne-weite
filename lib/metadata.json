@@ -1,6 +1,6 @@
 {
   "vaultName": "Silberne Weite",
-  "lastExport": 1731704950444,
+  "lastExport": 1731706235151,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -101,6 +101,13 @@
     "Sessions/Session Übersicht.md",
     "index.md",
     "lib/media/karte-der-silbernen-weite.png",
+    "lib/media/bild-der-felsenspalter.png",
+    "lib/media/wogenwolf.png",
+    "lib/media/portrait-kua-toa.png",
+    "lib/media/inoffizielles-portrait-ruben.png",
+    "lib/media/auge-der-voraussicht.png",
+    "lib/media/portrait-fedor-seeblick.png",
+    "lib/media/portrait-theoben-rutel.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -129,29 +136,7 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css",
-    "factions/assets/portrait-kua-toa.png",
-    "items/assets/auge-der-voraussicht.png",
-    "locations/rebensund/assets/karte-von-rebensund.png",
-    "lib/media/bild-der-felsenspalter.png",
-    "lib/media/wogenwolf.png",
-    "locations/assets/karte-der-silbernen-weite.png",
-    "npcs/evil-guys/assets/portrait-blutfresse.png",
-    "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
-    "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
-    "npcs/goldhafen/assets/portrait-theoben-rutel.png",
-    "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
-    "pcs/assets/portrait-odem.png",
-    "pcs/assets/protrait-rafhorn.png",
-    "pcs/assets/portrait-vio.png",
-    "lib/media/portrait-kua-toa.png",
-    "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
-    "lib/media/inoffizielles-portrait-ruben.png",
-    "lib/media/auge-der-voraussicht.png",
-    "sessions/2024/003/assets/pasted-image-20241101032850.png",
-    "sessions/2024/004/assets/gestrandete-wogenwolf.png",
-    "lib/media/portrait-fedor-seeblick.png",
-    "lib/media/portrait-theoben-rutel.png"
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -186,37 +171,45 @@
   ],
   "fileInfo": {
     "Factions/assets/Portrait Kua-Toa.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 750564,
       "exportedPath": "factions/assets/portrait-kua-toa.png",
       "dependencies": []
     },
     "Factions/Eisenfalken.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 202,
       "exportedPath": "factions/eisenfalken.html",
       "dependencies": []
     },
     "Factions/Elfen des Nachtschattenwalds.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 214,
       "exportedPath": "factions/elfen-des-nachtschattenwalds.html",
       "dependencies": []
     },
+    "Factions/Fraktionen Mindmap.canvas": {
+      "modifiedTime": 1731706235151,
+      "sourceSize": 1095,
+      "exportedPath": "factions/fraktionen-mindmap.html",
+      "dependencies": [
+        "lib/media/karte-der-silbernen-weite.png"
+      ]
+    },
     "Factions/Geheimer Kodex.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 206,
       "exportedPath": "factions/geheimer-kodex.html",
       "dependencies": []
     },
     "Factions/Königreich Thalendria.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 211,
       "exportedPath": "factions/königreich-thalendria.html",
       "dependencies": []
     },
     "Factions/Kuo-Toa.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 309,
       "exportedPath": "factions/kuo-toa.html",
       "dependencies": [
@@ -224,55 +217,55 @@
       ]
     },
     "Factions/Nebelschwerter.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 402,
       "exportedPath": "factions/nebelschwerter.html",
       "dependencies": []
     },
     "Factions/Rat von Goldhafen.md": {
-      "modifiedTime": 1731702657342,
+      "modifiedTime": 1731706235151,
       "sourceSize": 609,
       "exportedPath": "factions/rat-von-goldhafen.html",
       "dependencies": []
     },
     "Factions/Silberkrone.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 233,
       "exportedPath": "factions/silberkrone.html",
       "dependencies": []
     },
     "Factions/Silberne Kreis.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 215,
       "exportedPath": "factions/silberne-kreis.html",
       "dependencies": []
     },
     "Factions/Starke Arm.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 212,
       "exportedPath": "factions/starke-arm.html",
       "dependencies": []
     },
     "Factions/Sturmwerft.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 198,
       "exportedPath": "factions/sturmwerft.html",
       "dependencies": []
     },
     "Factions/Zwerge von Eisengrad.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 212,
       "exportedPath": "factions/zwerge-von-eisengrad.html",
       "dependencies": []
     },
     "Items/assets/Auge der Voraussicht.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1593745,
       "exportedPath": "items/assets/auge-der-voraussicht.png",
       "dependencies": []
     },
     "Items/Auge der Voraussicht.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 367,
       "exportedPath": "items/auge-der-voraussicht.html",
       "dependencies": [
@@ -280,79 +273,79 @@
       ]
     },
     "Items/Brief an Blutfresse.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 290,
       "exportedPath": "items/brief-an-blutfresse.html",
       "dependencies": []
     },
     "Items/Magische Spruchrolle.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 308,
       "exportedPath": "items/magische-spruchrolle.html",
       "dependencies": []
     },
     "Items/Schlupfrüstung.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 224,
       "exportedPath": "items/schlupfrüstung.html",
       "dependencies": []
     },
     "Items/Stange des Schrumpfens.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 234,
       "exportedPath": "items/stange-des-schrumpfens.html",
       "dependencies": []
     },
     "Items/Zauberstecken der Blumen.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 355,
       "exportedPath": "items/zauberstecken-der-blumen.html",
       "dependencies": []
     },
     "Locations/assets/Karte der Silbernen Weite.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1628300,
       "exportedPath": "locations/assets/karte-der-silbernen-weite.png",
       "dependencies": []
     },
     "Locations/assets/Wogenwolf.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2230533,
       "exportedPath": "locations/assets/wogenwolf.png",
       "dependencies": []
     },
     "Locations/Goldhafen/assets/Bild der Felsenspalter.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2001732,
       "exportedPath": "locations/goldhafen/assets/bild-der-felsenspalter.png",
       "dependencies": []
     },
     "Locations/Goldhafen/Goldhafen.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 383,
       "exportedPath": "locations/goldhafen/goldhafen.html",
       "dependencies": []
     },
     "Locations/Rebensund/assets/Karte von Rebensund.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 177474,
       "exportedPath": "locations/rebensund/assets/karte-von-rebensund.png",
       "dependencies": []
     },
     "Locations/Rebensund/Frostspitze.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 240,
       "exportedPath": "locations/rebensund/frostspitze.html",
       "dependencies": []
     },
     "Locations/Rebensund/Rebenfeld.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 434,
       "exportedPath": "locations/rebensund/rebenfeld.html",
       "dependencies": []
     },
     "Locations/Rebensund/Rebensund.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 526,
       "exportedPath": "locations/rebensund/rebensund.html",
       "dependencies": [
@@ -360,19 +353,19 @@
       ]
     },
     "Locations/Rebensund/Ritualstätte der Kuo-Tao.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 214,
       "exportedPath": "locations/rebensund/ritualstätte-der-kuo-tao.html",
       "dependencies": []
     },
     "Locations/Rebensund/Wellenfeste.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 306,
       "exportedPath": "locations/rebensund/wellenfeste.html",
       "dependencies": []
     },
     "Locations/Schiff/Felsenspalter.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 229,
       "exportedPath": "locations/schiff/felsenspalter.html",
       "dependencies": [
@@ -380,7 +373,7 @@
       ]
     },
     "Locations/Schiff/Wogenwolf.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 310,
       "exportedPath": "locations/schiff/wogenwolf.html",
       "dependencies": [
@@ -388,69 +381,75 @@
       ]
     },
     "Locations/Baldurs Tor.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 173,
       "exportedPath": "locations/baldurs-tor.html",
       "dependencies": []
     },
     "Locations/Eisengrad.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 229,
       "exportedPath": "locations/eisengrad.html",
       "dependencies": []
     },
     "Locations/Nachtschattenwald.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 254,
       "exportedPath": "locations/nachtschattenwald.html",
       "dependencies": []
     },
     "Locations/Schimmermeer.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 190,
       "exportedPath": "locations/schimmermeer.html",
       "dependencies": []
     },
     "Locations/Silberne Weite.md": {
-      "modifiedTime": 1731699179690,
-      "sourceSize": 399,
+      "modifiedTime": 1731706235151,
+      "sourceSize": 568,
       "exportedPath": "locations/silberne-weite.html",
       "dependencies": [
         "locations/assets/karte-der-silbernen-weite.png"
       ]
     },
+    "Locations/Unter den Eichen.md": {
+      "modifiedTime": 1731706235151,
+      "sourceSize": 243,
+      "exportedPath": "locations/unter-den-eichen.html",
+      "dependencies": []
+    },
     "Locations/Wachturm.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 312,
       "exportedPath": "locations/wachturm.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Inoffizielles Portrait Blutfresse.png~": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2149599,
       "exportedPath": "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png~",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Inoffizielles Portrait Blutfresse.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2159625,
       "exportedPath": "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Portrait Blutfresse.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2419307,
       "exportedPath": "npcs/evil-guys/assets/portrait-blutfresse.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/Blibdoolpoolp.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 336,
       "exportedPath": "npcs/evil-guys/blibdoolpoolp.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Blutfresse.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 411,
       "exportedPath": "npcs/evil-guys/blutfresse.html",
       "dependencies": [
@@ -459,85 +458,85 @@
       ]
     },
     "NPCs/Evil Guys/Rubdilglap.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 236,
       "exportedPath": "npcs/evil-guys/rubdilglap.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/assets/Portrait Fedor Seeblick.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2183773,
       "exportedPath": "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "NPCs/Goldhafen/assets/Portrait Theoben Rutel.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2114565,
       "exportedPath": "npcs/goldhafen/assets/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Arannis Sternenweberin Galathiel.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 337,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/arannis-sternenweberin-galathiel.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Elara von Velis.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 322,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/elara-von-velis.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Isara Morgenwind.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 309,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/isara-morgenwind.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Lyara Thorne.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 313,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/lyara-thorne.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Magisterin Elowen Galdrin.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 338,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/magisterin-elowen-galdrin.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Meisterin Aerelyn Sternenrufer.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 348,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/meisterin-aerelyn-sternenrufer.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Thalan Holzwind.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 320,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/thalan-holzwind.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Zauberweber Dorian Nebeltanz.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 342,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/zauberweber-dorian-nebeltanz.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Borgrin Hammerhand.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 302,
       "exportedPath": "npcs/goldhafen/borgrin-hammerhand.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Calista.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 401,
       "exportedPath": "npcs/goldhafen/calista.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Fedor Seeblick.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 402,
       "exportedPath": "npcs/goldhafen/fedor-seeblick.html",
       "dependencies": [
@@ -545,13 +544,13 @@
       ]
     },
     "NPCs/Goldhafen/Keldorn Schwinghammer.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 280,
       "exportedPath": "npcs/goldhafen/keldorn-schwinghammer.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Theoben Rutel.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 302,
       "exportedPath": "npcs/goldhafen/theoben-rutel.html",
       "dependencies": [
@@ -559,31 +558,31 @@
       ]
     },
     "NPCs/Rebensund/assets/Inoffizielles Portrait Ruben.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1987437,
       "exportedPath": "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "NPCs/Rebensund/Ignazius Rovengar.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 429,
       "exportedPath": "npcs/rebensund/ignazius-rovengar.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Johanna.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 915,
       "exportedPath": "npcs/rebensund/johanna.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Mella die Fee.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 644,
       "exportedPath": "npcs/rebensund/mella-die-fee.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Ruben Wurzelwächter.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 829,
       "exportedPath": "npcs/rebensund/ruben-wurzelwächter.html",
       "dependencies": [
@@ -591,49 +590,49 @@
       ]
     },
     "NPCs/Wogenwolf/Berni.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 286,
       "exportedPath": "npcs/wogenwolf/berni.html",
       "dependencies": []
     },
     "NPCs/Wogenwolf/Rudi Morgenstern.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 585,
       "exportedPath": "npcs/wogenwolf/rudi-morgenstern.html",
       "dependencies": []
     },
     "NPCs/Wogenwolf/Seamon Havarian.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 406,
       "exportedPath": "npcs/wogenwolf/seamon-havarian.html",
       "dependencies": []
     },
     "NPCs/NPC Übersicht.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 413,
       "exportedPath": "npcs/npc-übersicht.html",
       "dependencies": []
     },
     "PCs/assets/Portrait Odem.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2185375,
       "exportedPath": "pcs/assets/portrait-odem.png",
       "dependencies": []
     },
     "PCs/assets/Portrait Vio.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2025287,
       "exportedPath": "pcs/assets/portrait-vio.png",
       "dependencies": []
     },
     "PCs/assets/Protrait Rafhorn.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1857222,
       "exportedPath": "pcs/assets/protrait-rafhorn.png",
       "dependencies": []
     },
     "PCs/Odem Veritas.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 406,
       "exportedPath": "pcs/odem-veritas.html",
       "dependencies": [
@@ -641,13 +640,13 @@
       ]
     },
     "PCs/Orak.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 243,
       "exportedPath": "pcs/orak.html",
       "dependencies": []
     },
     "PCs/Rafhorn Iloword.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 429,
       "exportedPath": "pcs/rafhorn-iloword.html",
       "dependencies": [
@@ -655,7 +654,7 @@
       ]
     },
     "PCs/Vio Velvet.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 722,
       "exportedPath": "pcs/vio-velvet.html",
       "dependencies": [
@@ -663,49 +662,49 @@
       ]
     },
     "Quests/Goldhafen/Drohenden Krieg zwischen Elfen und Goldhafen verhindern.md": {
-      "modifiedTime": 1731702657342,
+      "modifiedTime": 1731706235151,
       "sourceSize": 734,
       "exportedPath": "quests/goldhafen/drohenden-krieg-zwischen-elfen-und-goldhafen-verhindern.html",
       "dependencies": []
     },
     "Quests/Goldhafen/Schiffe aus Goldhafen sind verschwunden.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 373,
       "exportedPath": "quests/goldhafen/schiffe-aus-goldhafen-sind-verschwunden.html",
       "dependencies": []
     },
     "Quests/Goldhafen/Silberlieferungen aus Eisengrad bleiben aus.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 318,
       "exportedPath": "quests/goldhafen/silberlieferungen-aus-eisengrad-bleiben-aus.html",
       "dependencies": []
     },
     "Quests/Rebensund/Johannas Bestattung.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 665,
       "exportedPath": "quests/rebensund/johannas-bestattung.html",
       "dependencies": []
     },
     "Quests/Rebensund/Ritualstätte der Kuo-Toa aufsuchen.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 982,
       "exportedPath": "quests/rebensund/ritualstätte-der-kuo-toa-aufsuchen.html",
       "dependencies": []
     },
     "Quests/Nebelschwerter zerschlagen.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 362,
       "exportedPath": "quests/nebelschwerter-zerschlagen.html",
       "dependencies": []
     },
     "Quests/Quest  Übersicht.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 198,
       "exportedPath": "quests/quest-übersicht.html",
       "dependencies": []
     },
     "Sessions/2024/001/001 Reise auf der Wogenwolf.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 3119,
       "exportedPath": "sessions/2024/001/001-reise-auf-der-wogenwolf.html",
       "dependencies": [
@@ -715,19 +714,19 @@
       ]
     },
     "Sessions/2024/001/001ReiseAufDerWogenwolf.excalidraw.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 93804,
       "exportedPath": "sessions/2024/001/001reiseaufderwogenwolf.excalidraw.html",
       "dependencies": []
     },
     "Sessions/2024/001/Wogenwolf retten im Beiboot.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1683672,
       "exportedPath": "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
       "dependencies": []
     },
     "Sessions/2024/002/002 Erkundung von Rebensund.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 3831,
       "exportedPath": "sessions/2024/002/002-erkundung-von-rebensund.html",
       "dependencies": [
@@ -736,13 +735,13 @@
       ]
     },
     "Sessions/2024/003/assets/Pasted image 20241101032850.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 936754,
       "exportedPath": "sessions/2024/003/assets/pasted-image-20241101032850.png",
       "dependencies": []
     },
     "Sessions/2024/003/003 Erkundung der Ritualstätte der Kuo-Toa.md": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 3988,
       "exportedPath": "sessions/2024/003/003-erkundung-der-ritualstätte-der-kuo-toa.html",
       "dependencies": [
@@ -750,14 +749,14 @@
       ]
     },
     "Sessions/2024/004/assets/Gestrandete Wogenwolf.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1690334,
       "exportedPath": "sessions/2024/004/assets/gestrandete-wogenwolf.png",
       "dependencies": []
     },
     "Sessions/2024/004/004 Verlassen Rebensund, erreichen Goldhafen.md": {
-      "modifiedTime": 1731699179690,
-      "sourceSize": 3351,
+      "modifiedTime": 1731706235151,
+      "sourceSize": 3348,
       "exportedPath": "sessions/2024/004/004-verlassen-rebensund,-erreichen-goldhafen.html",
       "dependencies": [
         "lib/media/bild-der-felsenspalter.png",
@@ -766,343 +765,329 @@
         "lib/media/portrait-theoben-rutel.png"
       ]
     },
+    "Sessions/Session Übersicht.md": {
+      "modifiedTime": 1731706235151,
+      "sourceSize": 437,
+      "exportedPath": "sessions/session-übersicht.html",
+      "dependencies": []
+    },
     "index.md": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 157,
       "exportedPath": "index.html",
       "dependencies": []
     },
+    "lib/media/karte-der-silbernen-weite.png": {
+      "modifiedTime": 1731706235151,
+      "sourceSize": 1628300,
+      "exportedPath": "lib/media/karte-der-silbernen-weite.png",
+      "dependencies": []
+    },
     "factions/assets/portrait-kua-toa.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 750564,
       "exportedPath": "factions/assets/portrait-kua-toa.png",
       "dependencies": []
     },
     "items/assets/auge-der-voraussicht.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1593745,
       "exportedPath": "items/assets/auge-der-voraussicht.png",
       "dependencies": []
     },
     "locations/rebensund/assets/karte-von-rebensund.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 177474,
       "exportedPath": "locations/rebensund/assets/karte-von-rebensund.png",
       "dependencies": []
     },
     "lib/media/bild-der-felsenspalter.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2001732,
       "exportedPath": "lib/media/bild-der-felsenspalter.png",
       "dependencies": []
     },
     "lib/media/wogenwolf.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2230533,
       "exportedPath": "lib/media/wogenwolf.png",
       "dependencies": []
     },
     "locations/assets/karte-der-silbernen-weite.png": {
-      "modifiedTime": 1731702657342,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1628300,
       "exportedPath": "locations/assets/karte-der-silbernen-weite.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/portrait-blutfresse.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2419307,
       "exportedPath": "npcs/evil-guys/assets/portrait-blutfresse.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2159625,
       "exportedPath": "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
       "dependencies": []
     },
     "npcs/goldhafen/assets/portrait-fedor-seeblick.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2183773,
       "exportedPath": "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "npcs/goldhafen/assets/portrait-theoben-rutel.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2114565,
       "exportedPath": "npcs/goldhafen/assets/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "npcs/rebensund/assets/inoffizielles-portrait-ruben.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1987437,
       "exportedPath": "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "pcs/assets/portrait-odem.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2185375,
       "exportedPath": "pcs/assets/portrait-odem.png",
       "dependencies": []
     },
     "pcs/assets/protrait-rafhorn.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1857222,
       "exportedPath": "pcs/assets/protrait-rafhorn.png",
       "dependencies": []
     },
     "pcs/assets/portrait-vio.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2025287,
       "exportedPath": "pcs/assets/portrait-vio.png",
       "dependencies": []
     },
     "lib/media/portrait-kua-toa.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 750564,
       "exportedPath": "lib/media/portrait-kua-toa.png",
       "dependencies": []
     },
     "sessions/2024/001/wogenwolf-retten-im-beiboot.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1683672,
       "exportedPath": "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
       "dependencies": []
     },
     "lib/media/inoffizielles-portrait-ruben.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1987437,
       "exportedPath": "lib/media/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "lib/media/auge-der-voraussicht.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1593745,
       "exportedPath": "lib/media/auge-der-voraussicht.png",
       "dependencies": []
     },
     "sessions/2024/003/assets/pasted-image-20241101032850.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 936754,
       "exportedPath": "sessions/2024/003/assets/pasted-image-20241101032850.png",
       "dependencies": []
     },
     "sessions/2024/004/assets/gestrandete-wogenwolf.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1690334,
       "exportedPath": "sessions/2024/004/assets/gestrandete-wogenwolf.png",
       "dependencies": []
     },
     "lib/media/portrait-fedor-seeblick.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2183773,
       "exportedPath": "lib/media/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "lib/media/portrait-theoben-rutel.png": {
-      "modifiedTime": 1731699179690,
+      "modifiedTime": 1731706235151,
       "sourceSize": 2114565,
       "exportedPath": "lib/media/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 54626,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 7654,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 42794,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 368,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1731704950444,
+      "modifiedTime": 1731706235151,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
-    },
-    "Locations/Unter den Eichen.md": {
-      "modifiedTime": 1731702657342,
-      "sourceSize": 243,
-      "exportedPath": "locations/unter-den-eichen.html",
-      "dependencies": []
-    },
-    "Sessions/Session Übersicht.md": {
-      "modifiedTime": 1731702657342,
-      "sourceSize": 437,
-      "exportedPath": "sessions/session-übersicht.html",
-      "dependencies": []
-    },
-    "lib/media/karte-der-silbernen-weite.png": {
-      "modifiedTime": 1731704950444,
-      "sourceSize": 1628300,
-      "exportedPath": "lib/media/karte-der-silbernen-weite.png",
-      "dependencies": []
-    },
-    "Factions/Fraktionen Mindmap.canvas": {
-      "modifiedTime": 1731704950444,
-      "sourceSize": 1095,
-      "exportedPath": "factions/fraktionen-mindmap.html",
-      "dependencies": [
-        "lib/media/karte-der-silbernen-weite.png"
-      ]
     }
   }
 }
