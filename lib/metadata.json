@@ -1,6 +1,6 @@
 {
   "vaultName": "Silberne Weite",
-  "lastExport": 1731706235151,
+  "lastExport": 1732900917771,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -31,6 +31,11 @@
     "Locations/assets/Wogenwolf.png",
     "Locations/Goldhafen/assets/Bild der Felsenspalter.png",
     "Locations/Goldhafen/Goldhafen.md",
+    "Locations/Goldhafen/Goldquai.md",
+    "Locations/Goldhafen/Markt der 1000 Waren.md",
+    "Locations/Goldhafen/Musikladen.md",
+    "Locations/Goldhafen/Salzkruste.md",
+    "Locations/Goldhafen/Silberwelle.md",
     "Locations/Rebensund/assets/Karte von Rebensund.png",
     "Locations/Rebensund/Frostspitze.md",
     "Locations/Rebensund/Rebenfeld.md",
@@ -41,11 +46,15 @@
     "Locations/Schiff/Wogenwolf.md",
     "Locations/Baldurs Tor.md",
     "Locations/Eisengrad.md",
+    "Locations/Grenzruh.md",
     "Locations/Nachtschattenwald.md",
     "Locations/Schimmermeer.md",
     "Locations/Silberne Weite.md",
     "Locations/Unter den Eichen.md",
     "Locations/Wachturm.md",
+    "NPCs/Eisengrad/Bron Tharion.md",
+    "NPCs/Eisengrad/Harbeck Eisenfaust.md",
+    "NPCs/Eisengrad/Modin Schwarzbart.md",
     "NPCs/Evil Guys/assets/Inoffizielles Portrait Blutfresse.png~",
     "NPCs/Evil Guys/assets/Inoffizielles Portrait Blutfresse.png",
     "NPCs/Evil Guys/assets/Portrait Blutfresse.png",
@@ -66,7 +75,11 @@
     "NPCs/Goldhafen/Calista.md",
     "NPCs/Goldhafen/Fedor Seeblick.md",
     "NPCs/Goldhafen/Keldorn Schwinghammer.md",
+    "NPCs/Goldhafen/Taschendiebin.md",
     "NPCs/Goldhafen/Theoben Rutel.md",
+    "NPCs/Goldhafen/Ulf Tharion.md",
+    "NPCs/Grenzruh/Helia.md",
+    "NPCs/Grenzruh/Romero.md",
     "NPCs/Rebensund/assets/Inoffizielles Portrait Ruben.png",
     "NPCs/Rebensund/Ignazius Rovengar.md",
     "NPCs/Rebensund/Johanna.md",
@@ -98,16 +111,9 @@
     "Sessions/2024/003/003 Erkundung der Ritualstätte der Kuo-Toa.md",
     "Sessions/2024/004/assets/Gestrandete Wogenwolf.png",
     "Sessions/2024/004/004 Verlassen Rebensund, erreichen Goldhafen.md",
+    "Sessions/2024/005/005 Von Goldhafen nach Grenzruh.md",
     "Sessions/Session Übersicht.md",
     "index.md",
-    "lib/media/karte-der-silbernen-weite.png",
-    "lib/media/bild-der-felsenspalter.png",
-    "lib/media/wogenwolf.png",
-    "lib/media/portrait-kua-toa.png",
-    "lib/media/inoffizielles-portrait-ruben.png",
-    "lib/media/auge-der-voraussicht.png",
-    "lib/media/portrait-fedor-seeblick.png",
-    "lib/media/portrait-theoben-rutel.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -136,7 +142,30 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "lib/media/karte-der-silbernen-weite.png",
+    "factions/assets/portrait-kua-toa.png",
+    "items/assets/auge-der-voraussicht.png",
+    "locations/rebensund/assets/karte-von-rebensund.png",
+    "lib/media/bild-der-felsenspalter.png",
+    "lib/media/wogenwolf.png",
+    "locations/assets/karte-der-silbernen-weite.png",
+    "npcs/evil-guys/assets/portrait-blutfresse.png",
+    "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
+    "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
+    "npcs/goldhafen/assets/portrait-theoben-rutel.png",
+    "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
+    "pcs/assets/portrait-odem.png",
+    "pcs/assets/protrait-rafhorn.png",
+    "pcs/assets/portrait-vio.png",
+    "lib/media/portrait-kua-toa.png",
+    "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
+    "lib/media/inoffizielles-portrait-ruben.png",
+    "lib/media/auge-der-voraussicht.png",
+    "sessions/2024/003/assets/pasted-image-20241101032850.png",
+    "sessions/2024/004/assets/gestrandete-wogenwolf.png",
+    "lib/media/portrait-fedor-seeblick.png",
+    "lib/media/portrait-theoben-rutel.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -387,8 +416,8 @@
       "dependencies": []
     },
     "Locations/Eisengrad.md": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 229,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 325,
       "exportedPath": "locations/eisengrad.html",
       "dependencies": []
     },
@@ -632,16 +661,16 @@
       "dependencies": []
     },
     "PCs/Odem Veritas.md": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 406,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 696,
       "exportedPath": "pcs/odem-veritas.html",
       "dependencies": [
         "pcs/assets/portrait-odem.png"
       ]
     },
     "PCs/Orak.md": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 243,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 301,
       "exportedPath": "pcs/orak.html",
       "dependencies": []
     },
@@ -654,8 +683,8 @@
       ]
     },
     "PCs/Vio Velvet.md": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 722,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 1040,
       "exportedPath": "pcs/vio-velvet.html",
       "dependencies": [
         "pcs/assets/portrait-vio.png"
@@ -850,7 +879,7 @@
       "dependencies": []
     },
     "pcs/assets/portrait-odem.png": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 2185375,
       "exportedPath": "pcs/assets/portrait-odem.png",
       "dependencies": []
@@ -862,7 +891,7 @@
       "dependencies": []
     },
     "pcs/assets/portrait-vio.png": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 2025287,
       "exportedPath": "pcs/assets/portrait-vio.png",
       "dependencies": []
@@ -916,177 +945,261 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 54626,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 61209,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1731706235151,
-      "sourceSize": 7654,
+      "modifiedTime": 1732900917771,
+      "sourceSize": 8910,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 42794,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 368,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1731706235151,
+      "modifiedTime": 1732900917771,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Locations/Goldhafen/Goldquai.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 176,
+      "exportedPath": "locations/goldhafen/goldquai.html",
+      "dependencies": []
+    },
+    "Locations/Goldhafen/Markt der 1000 Waren.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 286,
+      "exportedPath": "locations/goldhafen/markt-der-1000-waren.html",
+      "dependencies": []
+    },
+    "Locations/Goldhafen/Musikladen.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 194,
+      "exportedPath": "locations/goldhafen/musikladen.html",
+      "dependencies": []
+    },
+    "Locations/Goldhafen/Salzkruste.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 248,
+      "exportedPath": "locations/goldhafen/salzkruste.html",
+      "dependencies": []
+    },
+    "Locations/Goldhafen/Silberwelle.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 177,
+      "exportedPath": "locations/goldhafen/silberwelle.html",
+      "dependencies": []
+    },
+    "Locations/Grenzruh.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 389,
+      "exportedPath": "locations/grenzruh.html",
+      "dependencies": []
+    },
+    "NPCs/Eisengrad/Bron Tharion.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 271,
+      "exportedPath": "npcs/eisengrad/bron-tharion.html",
+      "dependencies": []
+    },
+    "NPCs/Eisengrad/Harbeck Eisenfaust.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 356,
+      "exportedPath": "npcs/eisengrad/harbeck-eisenfaust.html",
+      "dependencies": []
+    },
+    "NPCs/Eisengrad/Modin Schwarzbart.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 427,
+      "exportedPath": "npcs/eisengrad/modin-schwarzbart.html",
+      "dependencies": []
+    },
+    "NPCs/Goldhafen/Taschendiebin.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 465,
+      "exportedPath": "npcs/goldhafen/taschendiebin.html",
+      "dependencies": []
+    },
+    "NPCs/Goldhafen/Ulf Tharion.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 361,
+      "exportedPath": "npcs/goldhafen/ulf-tharion.html",
+      "dependencies": []
+    },
+    "NPCs/Grenzruh/Helia.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 269,
+      "exportedPath": "npcs/grenzruh/helia.html",
+      "dependencies": []
+    },
+    "NPCs/Grenzruh/Romero.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 301,
+      "exportedPath": "npcs/grenzruh/romero.html",
+      "dependencies": []
+    },
+    "Sessions/2024/005/005 Von Goldhafen nach Grenzruh.md": {
+      "modifiedTime": 1732900917771,
+      "sourceSize": 3035,
+      "exportedPath": "sessions/2024/005/005-von-goldhafen-nach-grenzruh.html",
       "dependencies": []
     }
   }
