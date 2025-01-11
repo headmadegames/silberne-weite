@@ -1,6 +1,6 @@
 {
   "vaultName": "Silberne Weite",
-  "lastExport": 1736511714100,
+  "lastExport": 1736593153635,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -138,17 +138,10 @@
     "Sessions/2025/007/007 Erreichen Eisengrad.md",
     "Sessions/Session Übersicht.md",
     "index.md",
-    "lib/media/bild-der-felsenspalter.png",
-    "lib/media/wogenwolf.png",
-    "lib/media/portrait-kua-toa.png",
-    "lib/media/inoffizielles-portrait-ruben.png",
-    "lib/media/auge-der-voraussicht.png",
-    "lib/media/portrait-fedor-seeblick.png",
-    "lib/media/portrait-theoben-rutel.png",
-    "lib/media/alte-verlassene-miene.png",
     "lib/media/eisengrad-inoffiziell.png",
     "lib/media/tempel-von-moradin.png",
     "lib/media/taverne-voller-krug.png",
+    "lib/media/baltazar.png",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -177,7 +170,35 @@
     "lib/styles/obsidian.css",
     "lib/styles/other-plugins.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "factions/assets/portrait-kua-toa.png",
+    "items/assets/auge-der-voraussicht.png",
+    "locations/eisengrad/assets/alte-verlassene-miene.png",
+    "locations/eisengrad/assets/eisengrad-inoffiziell.png",
+    "locations/eisengrad/assets/taverne-voller-krug.png",
+    "locations/eisengrad/assets/tempel-von-moradin.png",
+    "locations/rebensund/assets/karte-von-rebensund.png",
+    "lib/media/bild-der-felsenspalter.png",
+    "npcs/eisengrad/assets/baltazar.png",
+    "npcs/evil-guys/assets/portrait-blutfresse.png",
+    "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
+    "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
+    "npcs/goldhafen/assets/portrait-theoben-rutel.png",
+    "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
+    "pcs/assets/portrait-odem.png",
+    "pcs/assets/portrait-rafhorn.png",
+    "pcs/assets/portrait-vio.png",
+    "lib/media/wogenwolf.png",
+    "lib/media/portrait-kua-toa.png",
+    "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
+    "lib/media/inoffizielles-portrait-ruben.png",
+    "lib/media/auge-der-voraussicht.png",
+    "sessions/2024/003/assets/wasserelementar.png",
+    "sessions/2024/004/assets/gestrandete-wogenwolf.png",
+    "lib/media/portrait-fedor-seeblick.png",
+    "lib/media/portrait-theoben-rutel.png",
+    "lib/media/alte-verlassene-miene.png",
+    "sessions/2024/006/assets/cackler.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -1036,13 +1057,14 @@
       ]
     },
     "Sessions/2025/007/007 Erreichen Eisengrad.md": {
-      "modifiedTime": 1736511714100,
-      "sourceSize": 5824,
+      "modifiedTime": 1736593153635,
+      "sourceSize": 5842,
       "exportedPath": "sessions/2025/007/007-erreichen-eisengrad.html",
       "dependencies": [
         "lib/media/eisengrad-inoffiziell.png",
         "lib/media/tempel-von-moradin.png",
-        "lib/media/taverne-voller-krug.png"
+        "lib/media/taverne-voller-krug.png",
+        "lib/media/baltazar.png"
       ]
     },
     "Sessions/Session Übersicht.md": {
@@ -1226,195 +1248,201 @@
       "dependencies": []
     },
     "lib/media/eisengrad-inoffiziell.png": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 1860349,
       "exportedPath": "lib/media/eisengrad-inoffiziell.png",
       "dependencies": []
     },
     "lib/media/tempel-von-moradin.png": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 1586350,
       "exportedPath": "lib/media/tempel-von-moradin.png",
       "dependencies": []
     },
     "lib/media/taverne-voller-krug.png": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 2168331,
       "exportedPath": "lib/media/taverne-voller-krug.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 74049,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 9693,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 131021,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 66509,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 368,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1736511714100,
+      "modifiedTime": 1736593153635,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "lib/media/baltazar.png": {
+      "modifiedTime": 1736593153635,
+      "sourceSize": 1643160,
+      "exportedPath": "lib/media/baltazar.png",
       "dependencies": []
     }
   }
