@@ -24,7 +24,7 @@ const blocks = [
     {tag: "location", path: "Locations", header: ["Ort", "Kontrolliert von"], mapper: (q => [q.file.link, q.controlledBy])},
     {tag: "session", path: "Sessions", header: ["Session", "Datum", "PCs", "Level"], mapper: (q => [q.file.link, q.date, q.pcs, q.level])},
     {tag: "pc", path: "PCs", header: ["PC", "Klasse", "Spezies", "Level"], mapper: (q => [q.file.link, q.class, q.race, q.level])},
-    {tag: "npc", path: "NPCs", header: ["NPC", "Rolle", "Fraktion", "Spezies", "Lebendig"], mapper: (q => [q.file.link, q.title, q.faction, q.race, q.alive])},
+    {tag: "npc", path: "NPCs", header: ["NPC", "Rolle", "Fraktion", "Spezies", "Lebendig"], mapper: (q => [q.file.link, q.role, q.faction, q.race, q.alive])},
     {tag: "faction", path: "Factions", header: ["Fraktionen"], mapper: (q => [q.file.link])}
 ];
 for (let block of blocks) {
