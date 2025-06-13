@@ -1,12 +1,13 @@
 {
   "vaultName": "Silberne Weite",
-  "lastExport": 1748898483470,
+  "lastExport": 1749839646230,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
     "Factions/assets/Portrait Kua-Toa.png",
+    "Factions/Diebesgilde.md",
     "Factions/Eisenfalken.md",
     "Factions/Elfen des Nachtschattenwalds.md",
     "Factions/Geheimer Kodex.md",
@@ -144,6 +145,7 @@
     "NPCs/Koenigreich Thalendria/Kronenfels/Lyra Sturmkrone.md",
     "NPCs/Koenigreich Thalendria/Kronenfels/Mafala Unterfuß.md",
     "NPCs/Koenigreich Thalendria/Kronenfels/Martin Riebensbart.md",
+    "NPCs/Koenigreich Thalendria/Kronenfels/Priem.md",
     "NPCs/Koenigreich Thalendria/Kronenfels/Sheighna Unterfuß.md",
     "NPCs/Koenigreich Thalendria/Kronenfels/Wilbur Sturmkrone.md",
     "NPCs/Koenigreich Thalendria/Unter den Eichen/assets/Abraham Eichenbram Portrait.png",
@@ -202,6 +204,7 @@
     "Sessions/2025/013/013 Abenteuer in Kronenfels.md",
     "Sessions/2025/014/assets/Holz vor der Huette.png",
     "Sessions/2025/014/014 Abenteuer mit Hans und Franz.md",
+    "Sessions/2025/015/015 Kampf gegen Rya.md",
     "Sessions/Session Übersicht.md",
     "index.md",
     "lib/media/bild-der-felsenspalter.png",
@@ -293,43 +296,49 @@
   ],
   "fileInfo": {
     "Factions/assets/Portrait Kua-Toa.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 750564,
       "exportedPath": "factions/assets/portrait-kua-toa.png",
       "dependencies": []
     },
+    "Factions/Diebesgilde.md": {
+      "modifiedTime": 1749839646230,
+      "sourceSize": 152,
+      "exportedPath": "factions/diebesgilde.html",
+      "dependencies": []
+    },
     "Factions/Eisenfalken.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 193,
       "exportedPath": "factions/eisenfalken.html",
       "dependencies": []
     },
     "Factions/Elfen des Nachtschattenwalds.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 238,
       "exportedPath": "factions/elfen-des-nachtschattenwalds.html",
       "dependencies": []
     },
     "Factions/Geheimer Kodex.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 197,
       "exportedPath": "factions/geheimer-kodex.html",
       "dependencies": []
     },
     "Factions/Horatius Schergen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 438,
       "exportedPath": "factions/horatius-schergen.html",
       "dependencies": []
     },
     "Factions/Königreich Thalendria.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 186,
       "exportedPath": "factions/königreich-thalendria.html",
       "dependencies": []
     },
     "Factions/Kuo-Toa.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 286,
       "exportedPath": "factions/kuo-toa.html",
       "dependencies": [
@@ -337,61 +346,61 @@
       ]
     },
     "Factions/Nebelschwerter.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 441,
       "exportedPath": "factions/nebelschwerter.html",
       "dependencies": []
     },
     "Factions/Rat von Goldhafen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 631,
       "exportedPath": "factions/rat-von-goldhafen.html",
       "dependencies": []
     },
     "Factions/Silberkrone.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 225,
       "exportedPath": "factions/silberkrone.html",
       "dependencies": []
     },
     "Factions/Silberne Kreis.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 206,
       "exportedPath": "factions/silberne-kreis.html",
       "dependencies": []
     },
     "Factions/Starke Arm.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 201,
       "exportedPath": "factions/starke-arm.html",
       "dependencies": []
     },
     "Factions/Sturmwerft.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 189,
       "exportedPath": "factions/sturmwerft.html",
       "dependencies": []
     },
     "Factions/Zwerge von Eisengrad.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 254,
       "exportedPath": "factions/zwerge-von-eisengrad.html",
       "dependencies": []
     },
     "Items/assets/Auge der Voraussicht.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1593745,
       "exportedPath": "items/assets/auge-der-voraussicht.png",
       "dependencies": []
     },
     "Items/Armschienen der Verteidigung.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 158,
       "exportedPath": "items/armschienen-der-verteidigung.html",
       "dependencies": []
     },
     "Items/Auge der Voraussicht.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 357,
       "exportedPath": "items/auge-der-voraussicht.html",
       "dependencies": [
@@ -399,127 +408,127 @@
       ]
     },
     "Items/Brief an Blutfresse.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 278,
       "exportedPath": "items/brief-an-blutfresse.html",
       "dependencies": []
     },
     "Items/Brief an Gerrick.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 217,
       "exportedPath": "items/brief-an-gerrick.html",
       "dependencies": []
     },
     "Items/Brosche des Schildes.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 246,
       "exportedPath": "items/brosche-des-schildes.html",
       "dependencies": []
     },
     "Items/Dos Lute.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 285,
       "exportedPath": "items/dos-lute.html",
       "dependencies": []
     },
     "Items/Magische Spruchrolle.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 299,
       "exportedPath": "items/magische-spruchrolle.html",
       "dependencies": []
     },
     "Items/Magisches Langschwert.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 301,
       "exportedPath": "items/magisches-langschwert.html",
       "dependencies": []
     },
     "Items/Ring of Swimming.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 201,
       "exportedPath": "items/ring-of-swimming.html",
       "dependencies": []
     },
     "Items/Schlupfrüstung.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 215,
       "exportedPath": "items/schlupfrüstung.html",
       "dependencies": []
     },
     "Items/Spruchrolle Geas Aufhebungszauber.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 185,
       "exportedPath": "items/spruchrolle-geas-aufhebungszauber.html",
       "dependencies": []
     },
     "Items/Stange des Schrumpfens.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 223,
       "exportedPath": "items/stange-des-schrumpfens.html",
       "dependencies": []
     },
     "Items/Stein der Verständigung.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 348,
       "exportedPath": "items/stein-der-verständigung.html",
       "dependencies": []
     },
     "Items/Wind Fan.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 266,
       "exportedPath": "items/wind-fan.html",
       "dependencies": []
     },
     "Items/Zauberstecken der Blumen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 345,
       "exportedPath": "items/zauberstecken-der-blumen.html",
       "dependencies": []
     },
     "Locations/assets/Grenzruh.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 961687,
       "exportedPath": "locations/assets/grenzruh.png",
       "dependencies": []
     },
     "Locations/assets/Karte der silbernen Weite.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1628300,
       "exportedPath": "locations/assets/karte-der-silbernen-weite.png",
       "dependencies": []
     },
     "Locations/assets/Wogenwolf.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2230533,
       "exportedPath": "locations/assets/wogenwolf.png",
       "dependencies": []
     },
     "Locations/Eisengrad/assets/Alte verlassene Miene.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2157022,
       "exportedPath": "locations/eisengrad/assets/alte-verlassene-miene.png",
       "dependencies": []
     },
     "Locations/Eisengrad/assets/Eisengrad inoffiziell.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1860349,
       "exportedPath": "locations/eisengrad/assets/eisengrad-inoffiziell.png",
       "dependencies": []
     },
     "Locations/Eisengrad/assets/Taverne voller Krug.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2168331,
       "exportedPath": "locations/eisengrad/assets/taverne-voller-krug.png",
       "dependencies": []
     },
     "Locations/Eisengrad/assets/Tempel von Moradin.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1586350,
       "exportedPath": "locations/eisengrad/assets/tempel-von-moradin.png",
       "dependencies": []
     },
     "Locations/Eisengrad/Alte verlassene Eisenmiene.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 273,
       "exportedPath": "locations/eisengrad/alte-verlassene-eisenmiene.html",
       "dependencies": [
@@ -527,7 +536,7 @@
       ]
     },
     "Locations/Eisengrad/Eisengrad.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 372,
       "exportedPath": "locations/eisengrad/eisengrad.html",
       "dependencies": [
@@ -535,7 +544,7 @@
       ]
     },
     "Locations/Eisengrad/Taverne Voller Krug.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 220,
       "exportedPath": "locations/eisengrad/taverne-voller-krug.html",
       "dependencies": [
@@ -543,7 +552,7 @@
       ]
     },
     "Locations/Eisengrad/Tempel von Moradin.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 243,
       "exportedPath": "locations/eisengrad/tempel-von-moradin.html",
       "dependencies": [
@@ -551,25 +560,25 @@
       ]
     },
     "Locations/Goldhafen/assets/Bild der Felsenspalter.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2001732,
       "exportedPath": "locations/goldhafen/assets/bild-der-felsenspalter.png",
       "dependencies": []
     },
     "Locations/Goldhafen/assets/Goldhafen.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 6124436,
       "exportedPath": "locations/goldhafen/assets/goldhafen.png",
       "dependencies": []
     },
     "Locations/Goldhafen/Flüsterkneipe.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 348,
       "exportedPath": "locations/goldhafen/flüsterkneipe.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Goldhafen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 420,
       "exportedPath": "locations/goldhafen/goldhafen.html",
       "dependencies": [
@@ -577,86 +586,86 @@
       ]
     },
     "Locations/Goldhafen/Goldquai.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 202,
       "exportedPath": "locations/goldhafen/goldquai.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Kanalisation.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 203,
       "exportedPath": "locations/goldhafen/kanalisation.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Magieschmiede Drachenarsenal.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 225,
       "exportedPath": "locations/goldhafen/magieschmiede-drachenarsenal.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Markt der 1000 Waren.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 281,
       "exportedPath": "locations/goldhafen/markt-der-1000-waren.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Musikladen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 186,
       "exportedPath": "locations/goldhafen/musikladen.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Salzkruste.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 240,
       "exportedPath": "locations/goldhafen/salzkruste.html",
       "dependencies": []
     },
     "Locations/Goldhafen/Silberwelle.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 169,
       "exportedPath": "locations/goldhafen/silberwelle.html",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/assets/Kronenfels Karte.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 420141,
       "exportedPath": "locations/koenigreich-thalendria/assets/kronenfels-karte.png",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/assets/Schattenhoefe.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2200186,
       "exportedPath": "locations/koenigreich-thalendria/assets/schattenhoefe.png",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/assets/unter_den_eichen.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 274875,
       "exportedPath": "locations/koenigreich-thalendria/assets/unter_den_eichen.png",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/Grimmforst.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 261,
       "exportedPath": "locations/koenigreich-thalendria/grimmforst.html",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/Handelshaus Riebensbart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 347,
       "exportedPath": "locations/koenigreich-thalendria/handelshaus-riebensbart.html",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/Herrenhaus der Eichenbrams.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 302,
       "exportedPath": "locations/koenigreich-thalendria/herrenhaus-der-eichenbrams.html",
       "dependencies": []
     },
     "Locations/Koenigreich Thalendria/Kronenfels.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 1798,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 1891,
       "exportedPath": "locations/koenigreich-thalendria/kronenfels.html",
       "dependencies": [
         "locations/koenigreich-thalendria/assets/kronenfels-karte.png",
@@ -664,7 +673,7 @@
       ]
     },
     "Locations/Koenigreich Thalendria/Unter den Eichen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 572,
       "exportedPath": "locations/koenigreich-thalendria/unter-den-eichen.html",
       "dependencies": [
@@ -672,25 +681,25 @@
       ]
     },
     "Locations/Rebensund/assets/Karte von Rebensund.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 177474,
       "exportedPath": "locations/rebensund/assets/karte-von-rebensund.png",
       "dependencies": []
     },
     "Locations/Rebensund/Frostspitze.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 230,
       "exportedPath": "locations/rebensund/frostspitze.html",
       "dependencies": []
     },
     "Locations/Rebensund/Rebenfeld.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 411,
       "exportedPath": "locations/rebensund/rebenfeld.html",
       "dependencies": []
     },
     "Locations/Rebensund/Rebensund.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 428,
       "exportedPath": "locations/rebensund/rebensund.html",
       "dependencies": [
@@ -698,19 +707,19 @@
       ]
     },
     "Locations/Rebensund/Ritualstätte der Kuo-Tao.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 203,
       "exportedPath": "locations/rebensund/ritualstätte-der-kuo-tao.html",
       "dependencies": []
     },
     "Locations/Rebensund/Wellenfeste.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 296,
       "exportedPath": "locations/rebensund/wellenfeste.html",
       "dependencies": []
     },
     "Locations/Schiff/Felsenspalter.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 171,
       "exportedPath": "locations/schiff/felsenspalter.html",
       "dependencies": [
@@ -718,21 +727,21 @@
       ]
     },
     "Locations/Schiff/Wogenwolf.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 259,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 274,
       "exportedPath": "locations/schiff/wogenwolf.html",
       "dependencies": [
         "lib/media/wogenwolf.png"
       ]
     },
     "Locations/Baldurs Tor.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 162,
       "exportedPath": "locations/baldurs-tor.html",
       "dependencies": []
     },
     "Locations/Grenzruh.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 401,
       "exportedPath": "locations/grenzruh.html",
       "dependencies": [
@@ -742,25 +751,25 @@
       ]
     },
     "Locations/Nachtschattenwald.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 221,
       "exportedPath": "locations/nachtschattenwald.html",
       "dependencies": []
     },
     "Locations/Schimmerheim.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 222,
       "exportedPath": "locations/schimmerheim.html",
       "dependencies": []
     },
     "Locations/Schimmermeer.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 181,
       "exportedPath": "locations/schimmermeer.html",
       "dependencies": []
     },
     "Locations/Silberne Weite.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 389,
       "exportedPath": "locations/silberne-weite.html",
       "dependencies": [
@@ -768,43 +777,43 @@
       ]
     },
     "Locations/Wachturm.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 369,
       "exportedPath": "locations/wachturm.html",
       "dependencies": []
     },
     "NPCs/assets/Lawine mit Vio.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2045948,
       "exportedPath": "npcs/assets/lawine-mit-vio.png",
       "dependencies": []
     },
     "NPCs/Eisengrad/assets/Baltazar.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1643160,
       "exportedPath": "npcs/eisengrad/assets/baltazar.png",
       "dependencies": []
     },
     "NPCs/Eisengrad/assets/Doriana Ring Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2736298,
       "exportedPath": "npcs/eisengrad/assets/doriana-ring-portrait.png",
       "dependencies": []
     },
     "NPCs/Eisengrad/assets/Harbeck Eisenfaust Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2675096,
       "exportedPath": "npcs/eisengrad/assets/harbeck-eisenfaust-portrait.png",
       "dependencies": []
     },
     "NPCs/Eisengrad/Baern Graubart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 329,
       "exportedPath": "npcs/eisengrad/baern-graubart.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Baltazar Schwarzbart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 539,
       "exportedPath": "npcs/eisengrad/baltazar-schwarzbart.html",
       "dependencies": [
@@ -812,25 +821,25 @@
       ]
     },
     "NPCs/Eisengrad/Bron Tharion.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 263,
       "exportedPath": "npcs/eisengrad/bron-tharion.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/bron-tharion.html": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 19516,
       "exportedPath": "npcs/eisengrad/bron-tharion.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Fable Schwarzbart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 294,
       "exportedPath": "npcs/eisengrad/fable-schwarzbart.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Harbeck Eisenfaust.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 388,
       "exportedPath": "npcs/eisengrad/harbeck-eisenfaust.html",
       "dependencies": [
@@ -838,73 +847,73 @@
       ]
     },
     "NPCs/Eisengrad/harbeck-eisenfaust.html": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 19822,
       "exportedPath": "npcs/eisengrad/harbeck-eisenfaust.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Modin Schwarzbart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 421,
       "exportedPath": "npcs/eisengrad/modin-schwarzbart.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/modin-schwarzbart.html": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 19675,
       "exportedPath": "npcs/eisengrad/modin-schwarzbart.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Sven.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 317,
       "exportedPath": "npcs/eisengrad/sven.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Thordek Orkfeind.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 435,
       "exportedPath": "npcs/eisengrad/thordek-orkfeind.html",
       "dependencies": []
     },
     "NPCs/Eisengrad/Walter Grabentief.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 363,
       "exportedPath": "npcs/eisengrad/walter-grabentief.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Inoffizielles Portrait Blutfresse.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2159625,
       "exportedPath": "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Okrum.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2687495,
       "exportedPath": "npcs/evil-guys/assets/okrum.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Portrait Blutfresse.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2419307,
       "exportedPath": "npcs/evil-guys/assets/portrait-blutfresse.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/assets/Portrait Rya.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2392247,
       "exportedPath": "npcs/evil-guys/assets/portrait-rya.png",
       "dependencies": []
     },
     "NPCs/Evil Guys/Blibdoolpoolp.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 329,
       "exportedPath": "npcs/evil-guys/blibdoolpoolp.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Blutfresse.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 434,
       "exportedPath": "npcs/evil-guys/blutfresse.html",
       "dependencies": [
@@ -913,7 +922,7 @@
       ]
     },
     "NPCs/Evil Guys/Doriana Ring.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 717,
       "exportedPath": "npcs/evil-guys/doriana-ring.html",
       "dependencies": [
@@ -921,31 +930,31 @@
       ]
     },
     "NPCs/Evil Guys/Gerrick.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 562,
       "exportedPath": "npcs/evil-guys/gerrick.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Halftan.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 671,
       "exportedPath": "npcs/evil-guys/halftan.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Horatius.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 416,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 494,
       "exportedPath": "npcs/evil-guys/horatius.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Magnus.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 314,
       "exportedPath": "npcs/evil-guys/magnus.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Okrum.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 267,
       "exportedPath": "npcs/evil-guys/okrum.html",
       "dependencies": [
@@ -954,99 +963,99 @@
       ]
     },
     "NPCs/Evil Guys/Rubdilglap.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 175,
       "exportedPath": "npcs/evil-guys/rubdilglap.html",
       "dependencies": []
     },
     "NPCs/Evil Guys/Rya.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 442,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 496,
       "exportedPath": "npcs/evil-guys/rya.html",
       "dependencies": [
         "npcs/evil-guys/assets/portrait-rya.png"
       ]
     },
     "NPCs/Evil Guys/Wilbur.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 285,
       "exportedPath": "npcs/evil-guys/wilbur.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/assets/Portrait Fedor Seeblick.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2183773,
       "exportedPath": "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "NPCs/Goldhafen/assets/Portrait Theoben Rutel.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2114565,
       "exportedPath": "npcs/goldhafen/assets/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Arannis Sternenweberin Galathiel.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 330,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/arannis-sternenweberin-galathiel.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Elara von Velis.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 315,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/elara-von-velis.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Isara Morgenwind.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 302,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/isara-morgenwind.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Lyara Thorne.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 306,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/lyara-thorne.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Magisterin Elowen Galdrin.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 331,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/magisterin-elowen-galdrin.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Meisterin Aerelyn Sternenrufer.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 341,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/meisterin-aerelyn-sternenrufer.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Thalan Holzwind.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 312,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/thalan-holzwind.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Ratsmitglieder/Zauberweber Dorian Nebeltanz.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 335,
       "exportedPath": "npcs/goldhafen/ratsmitglieder/zauberweber-dorian-nebeltanz.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Borgrin Hammerhand.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 295,
       "exportedPath": "npcs/goldhafen/borgrin-hammerhand.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Calista.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 390,
       "exportedPath": "npcs/goldhafen/calista.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Fedor Seeblick.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 394,
       "exportedPath": "npcs/goldhafen/fedor-seeblick.html",
       "dependencies": [
@@ -1054,25 +1063,25 @@
       ]
     },
     "NPCs/Goldhafen/Keldorn Schwinghammer.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 273,
       "exportedPath": "npcs/goldhafen/keldorn-schwinghammer.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Reinhard.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 192,
       "exportedPath": "npcs/goldhafen/reinhard.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Taschendiebin.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 458,
       "exportedPath": "npcs/goldhafen/taschendiebin.html",
       "dependencies": []
     },
     "NPCs/Goldhafen/Theoben Rutel.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 296,
       "exportedPath": "npcs/goldhafen/theoben-rutel.html",
       "dependencies": [
@@ -1080,25 +1089,25 @@
       ]
     },
     "NPCs/Goldhafen/Ulf Tharion.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 358,
       "exportedPath": "npcs/goldhafen/ulf-tharion.html",
       "dependencies": []
     },
     "NPCs/Grenzruh/assets/Helja Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2147059,
       "exportedPath": "npcs/grenzruh/assets/helja-portrait.png",
       "dependencies": []
     },
     "NPCs/Grenzruh/assets/Romero Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2662966,
       "exportedPath": "npcs/grenzruh/assets/romero-portrait.png",
       "dependencies": []
     },
     "NPCs/Grenzruh/Helja.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 285,
       "exportedPath": "npcs/grenzruh/helja.html",
       "dependencies": [
@@ -1106,7 +1115,7 @@
       ]
     },
     "NPCs/Grenzruh/Romero.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 320,
       "exportedPath": "npcs/grenzruh/romero.html",
       "dependencies": [
@@ -1114,37 +1123,37 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/assets/Portrait Franz.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2439677,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-franz.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/assets/Portrait Hans.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2610984,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-hans.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/assets/Portrait Mafala Unterfuss.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2964798,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-mafala-unterfuss.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/assets/Sheighna Unterfuss Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2729130,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/sheighna-unterfuss-portrait.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Dragan Sturmkrone.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 319,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 332,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/dragan-sturmkrone.html",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Franz.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 793,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/franz.html",
       "dependencies": [
@@ -1152,7 +1161,7 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Hans.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 350,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/hans.html",
       "dependencies": [
@@ -1160,13 +1169,13 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Lyra Sturmkrone.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 402,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 462,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/lyra-sturmkrone.html",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Mafala Unterfuß.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 433,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/mafala-unterfuß.html",
       "dependencies": [
@@ -1174,13 +1183,19 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Martin Riebensbart.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 268,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/martin-riebensbart.html",
       "dependencies": []
     },
+    "NPCs/Koenigreich Thalendria/Kronenfels/Priem.md": {
+      "modifiedTime": 1749839646230,
+      "sourceSize": 292,
+      "exportedPath": "npcs/koenigreich-thalendria/kronenfels/priem.html",
+      "dependencies": []
+    },
     "NPCs/Koenigreich Thalendria/Kronenfels/Sheighna Unterfuß.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 350,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/sheighna-unterfuß.html",
       "dependencies": [
@@ -1188,37 +1203,37 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Kronenfels/Wilbur Sturmkrone.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 328,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 363,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/wilbur-sturmkrone.html",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/assets/Abraham Eichenbram Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2383453,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/abraham-eichenbram-portrait.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/assets/Marianne Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2633812,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/marianne-portrait.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/assets/Miegrimm Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2774363,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/miegrimm-portrait.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/assets/Ruediger Portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2372340,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/ruediger-portrait.png",
       "dependencies": []
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/Abraham Eichenbram.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 526,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/abraham-eichenbram.html",
       "dependencies": [
@@ -1226,7 +1241,7 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/Marianne.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 336,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/marianne.html",
       "dependencies": [
@@ -1234,7 +1249,7 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/Miegrimm.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 450,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/miegrimm.html",
       "dependencies": [
@@ -1242,7 +1257,7 @@
       ]
     },
     "NPCs/Koenigreich Thalendria/Unter den Eichen/Rüdiger.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 289,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/rüdiger.html",
       "dependencies": [
@@ -1250,31 +1265,31 @@
       ]
     },
     "NPCs/Rebensund/assets/Inoffizielles Portrait Ruben.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1987437,
       "exportedPath": "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "NPCs/Rebensund/Ignazius Rovengar.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 422,
       "exportedPath": "npcs/rebensund/ignazius-rovengar.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Johanna.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 903,
       "exportedPath": "npcs/rebensund/johanna.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Mella die Fee.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 635,
       "exportedPath": "npcs/rebensund/mella-die-fee.html",
       "dependencies": []
     },
     "NPCs/Rebensund/Ruben Wurzelwächter.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 826,
       "exportedPath": "npcs/rebensund/ruben-wurzelwächter.html",
       "dependencies": [
@@ -1282,25 +1297,25 @@
       ]
     },
     "NPCs/Wogenwolf/Berni.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 252,
       "exportedPath": "npcs/wogenwolf/berni.html",
       "dependencies": []
     },
     "NPCs/Wogenwolf/Rudi Morgenstern.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 579,
       "exportedPath": "npcs/wogenwolf/rudi-morgenstern.html",
       "dependencies": []
     },
     "NPCs/Wogenwolf/Seamon Havarian.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 400,
       "exportedPath": "npcs/wogenwolf/seamon-havarian.html",
       "dependencies": []
     },
     "NPCs/Lawine.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 330,
       "exportedPath": "npcs/lawine.html",
       "dependencies": [
@@ -1308,31 +1323,31 @@
       ]
     },
     "NPCs/NPC Übersicht.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 54,
       "exportedPath": "npcs/npc-übersicht.html",
       "dependencies": []
     },
     "PCs/assets/Portrait Odem.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2185375,
       "exportedPath": "pcs/assets/portrait-odem.png",
       "dependencies": []
     },
     "PCs/assets/Portrait Rafhorn.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1857222,
       "exportedPath": "pcs/assets/portrait-rafhorn.png",
       "dependencies": []
     },
     "PCs/assets/Portrait Vio.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2025287,
       "exportedPath": "pcs/assets/portrait-vio.png",
       "dependencies": []
     },
     "PCs/Odem Veritas.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 760,
       "exportedPath": "pcs/odem-veritas.html",
       "dependencies": [
@@ -1340,13 +1355,13 @@
       ]
     },
     "PCs/Orak.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 292,
       "exportedPath": "pcs/orak.html",
       "dependencies": []
     },
     "PCs/Rafhorn Iloword.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 422,
       "exportedPath": "pcs/rafhorn-iloword.html",
       "dependencies": [
@@ -1354,7 +1369,7 @@
       ]
     },
     "PCs/Vio Velvet.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1300,
       "exportedPath": "pcs/vio-velvet.html",
       "dependencies": [
@@ -1362,55 +1377,55 @@
       ]
     },
     "Quests/Goldhafen/Drohenden Krieg zwischen Elfen und Goldhafen verhindern.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 912,
       "exportedPath": "quests/goldhafen/drohenden-krieg-zwischen-elfen-und-goldhafen-verhindern.html",
       "dependencies": []
     },
     "Quests/Goldhafen/Schiffe aus Goldhafen sind verschwunden.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 366,
       "exportedPath": "quests/goldhafen/schiffe-aus-goldhafen-sind-verschwunden.html",
       "dependencies": []
     },
     "Quests/Goldhafen/Silberlieferungen aus Eisengrad bleiben aus.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 934,
       "exportedPath": "quests/goldhafen/silberlieferungen-aus-eisengrad-bleiben-aus.html",
       "dependencies": []
     },
     "Quests/Kronenfels/Mord der Familie Riebensbart aufklären.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 499,
       "exportedPath": "quests/kronenfels/mord-der-familie-riebensbart-aufklären.html",
       "dependencies": []
     },
     "Quests/Rebensund/Johannas Bestattung.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1077,
       "exportedPath": "quests/rebensund/johannas-bestattung.html",
       "dependencies": []
     },
     "Quests/Rebensund/Ritualstätte der Kuo-Toa aufsuchen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 979,
       "exportedPath": "quests/rebensund/ritualstätte-der-kuo-toa-aufsuchen.html",
       "dependencies": []
     },
     "Quests/Nebelschwerter zerschlagen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 355,
       "exportedPath": "quests/nebelschwerter-zerschlagen.html",
       "dependencies": []
     },
     "Quests/Quest Übersicht.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 194,
       "exportedPath": "quests/quest-übersicht.html",
       "dependencies": []
     },
     "Sessions/2024/001/001 Reise auf der Wogenwolf.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3112,
       "exportedPath": "sessions/2024/001/001-reise-auf-der-wogenwolf.html",
       "dependencies": [
@@ -1420,19 +1435,19 @@
       ]
     },
     "Sessions/2024/001/001ReiseAufDerWogenwolf.excalidraw.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 93804,
       "exportedPath": "sessions/2024/001/001reiseaufderwogenwolf.excalidraw.html",
       "dependencies": []
     },
     "Sessions/2024/001/Wogenwolf retten im Beiboot.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1683672,
       "exportedPath": "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
       "dependencies": []
     },
     "Sessions/2024/002/002 Erkundung von Rebensund.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3823,
       "exportedPath": "sessions/2024/002/002-erkundung-von-rebensund.html",
       "dependencies": [
@@ -1441,13 +1456,13 @@
       ]
     },
     "Sessions/2024/003/assets/Wasserelementar.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 936754,
       "exportedPath": "sessions/2024/003/assets/wasserelementar.png",
       "dependencies": []
     },
     "Sessions/2024/003/003 Erkundung der Ritualstätte der Kuo-Toa.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3984,
       "exportedPath": "sessions/2024/003/003-erkundung-der-ritualstätte-der-kuo-toa.html",
       "dependencies": [
@@ -1455,13 +1470,13 @@
       ]
     },
     "Sessions/2024/004/assets/Gestrandete Wogenwolf.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1690334,
       "exportedPath": "sessions/2024/004/assets/gestrandete-wogenwolf.png",
       "dependencies": []
     },
     "Sessions/2024/004/004 Verlassen Rebensund und erreichen Goldhafen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3335,
       "exportedPath": "sessions/2024/004/004-verlassen-rebensund-und-erreichen-goldhafen.html",
       "dependencies": [
@@ -1472,19 +1487,19 @@
       ]
     },
     "Sessions/2024/005/005 Von Goldhafen nach Grenzruh.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3051,
       "exportedPath": "sessions/2024/005/005-von-goldhafen-nach-grenzruh.html",
       "dependencies": []
     },
     "Sessions/2024/006/assets/Cackler.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1235534,
       "exportedPath": "sessions/2024/006/assets/cackler.png",
       "dependencies": []
     },
     "Sessions/2024/006/006 Suchen Zugang zu Eisengrad.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3249,
       "exportedPath": "sessions/2024/006/006-suchen-zugang-zu-eisengrad.html",
       "dependencies": [
@@ -1493,7 +1508,7 @@
       ]
     },
     "Sessions/2025/007/007 Erreichen Eisengrad.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 5842,
       "exportedPath": "sessions/2025/007/007-erreichen-eisengrad.html",
       "dependencies": [
@@ -1504,13 +1519,13 @@
       ]
     },
     "Sessions/2025/008/008 Kampf um den König Eisengrads.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3983,
       "exportedPath": "sessions/2025/008/008-kampf-um-den-könig-eisengrads.html",
       "dependencies": []
     },
     "Sessions/2025/009/009 Reise nach Kronenfels und Unter den Eichen.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2666,
       "exportedPath": "sessions/2025/009/009-reise-nach-kronenfels-und-unter-den-eichen.html",
       "dependencies": [
@@ -1518,7 +1533,7 @@
       ]
     },
     "Sessions/2025/010/010 Abenteuer mit Abraham.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 3139,
       "exportedPath": "sessions/2025/010/010-abenteuer-mit-abraham.html",
       "dependencies": [
@@ -1528,19 +1543,19 @@
       ]
     },
     "Sessions/2025/011/assets/Ork Huette.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2901298,
       "exportedPath": "sessions/2025/011/assets/ork-huette.png",
       "dependencies": []
     },
     "Sessions/2025/011/assets/Ork Turm.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2493109,
       "exportedPath": "sessions/2025/011/assets/ork-turm.png",
       "dependencies": []
     },
     "Sessions/2025/011/011 Kampf gegen Orks.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2337,
       "exportedPath": "sessions/2025/011/011-kampf-gegen-orks.html",
       "dependencies": [
@@ -1550,21 +1565,21 @@
       ]
     },
     "Sessions/2025/012/012 Ein Wiedersehen und Nachforschungen in Kronenfels.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 4252,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 4251,
       "exportedPath": "sessions/2025/012/012-ein-wiedersehen-und-nachforschungen-in-kronenfels.html",
       "dependencies": [
         "lib/media/doriana-ring-portrait.png"
       ]
     },
     "Sessions/2025/013/assets/Pasted image 20250515232438.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2289814,
       "exportedPath": "sessions/2025/013/assets/pasted-image-20250515232438.png",
       "dependencies": []
     },
     "Sessions/2025/013/013 Abenteuer in Kronenfels.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 7375,
       "exportedPath": "sessions/2025/013/013-abenteuer-in-kronenfels.html",
       "dependencies": [
@@ -1576,14 +1591,14 @@
       ]
     },
     "Sessions/2025/014/assets/Holz vor der Huette.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2806942,
       "exportedPath": "sessions/2025/014/assets/holz-vor-der-huette.png",
       "dependencies": []
     },
     "Sessions/2025/014/014 Abenteuer mit Hans und Franz.md": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 5065,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 5098,
       "exportedPath": "sessions/2025/014/014-abenteuer-mit-hans-und-franz.html",
       "dependencies": [
         "lib/media/schattenhoefe.png",
@@ -1593,608 +1608,614 @@
         "lib/media/portrait-rya.png"
       ]
     },
+    "Sessions/2025/015/015 Kampf gegen Rya.md": {
+      "modifiedTime": 1749839646230,
+      "sourceSize": 2705,
+      "exportedPath": "sessions/2025/015/015-kampf-gegen-rya.html",
+      "dependencies": []
+    },
     "Sessions/Session Übersicht.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 58,
       "exportedPath": "sessions/session-übersicht.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 171,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "factions/assets/portrait-kua-toa.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 750564,
       "exportedPath": "factions/assets/portrait-kua-toa.png",
       "dependencies": []
     },
     "items/assets/auge-der-voraussicht.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1593745,
       "exportedPath": "items/assets/auge-der-voraussicht.png",
       "dependencies": []
     },
     "locations/eisengrad/assets/alte-verlassene-miene.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2157022,
       "exportedPath": "locations/eisengrad/assets/alte-verlassene-miene.png",
       "dependencies": []
     },
     "locations/eisengrad/assets/eisengrad-inoffiziell.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1860349,
       "exportedPath": "locations/eisengrad/assets/eisengrad-inoffiziell.png",
       "dependencies": []
     },
     "locations/eisengrad/assets/taverne-voller-krug.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2168331,
       "exportedPath": "locations/eisengrad/assets/taverne-voller-krug.png",
       "dependencies": []
     },
     "locations/eisengrad/assets/tempel-von-moradin.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1586350,
       "exportedPath": "locations/eisengrad/assets/tempel-von-moradin.png",
       "dependencies": []
     },
     "locations/goldhafen/assets/goldhafen.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 6124436,
       "exportedPath": "locations/goldhafen/assets/goldhafen.png",
       "dependencies": []
     },
     "locations/koenigreich-thalendria/assets/kronenfels-karte.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 420141,
       "exportedPath": "locations/koenigreich-thalendria/assets/kronenfels-karte.png",
       "dependencies": []
     },
     "locations/koenigreich-thalendria/assets/schattenhoefe.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2200186,
       "exportedPath": "locations/koenigreich-thalendria/assets/schattenhoefe.png",
       "dependencies": []
     },
     "locations/koenigreich-thalendria/assets/unter_den_eichen.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 274875,
       "exportedPath": "locations/koenigreich-thalendria/assets/unter_den_eichen.png",
       "dependencies": []
     },
     "locations/rebensund/assets/karte-von-rebensund.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 177474,
       "exportedPath": "locations/rebensund/assets/karte-von-rebensund.png",
       "dependencies": []
     },
     "lib/media/bild-der-felsenspalter.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2001732,
       "exportedPath": "lib/media/bild-der-felsenspalter.png",
       "dependencies": []
     },
     "lib/media/wogenwolf.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2230533,
       "exportedPath": "lib/media/wogenwolf.png",
       "dependencies": []
     },
     "locations/assets/grenzruh.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 961687,
       "exportedPath": "locations/assets/grenzruh.png",
       "dependencies": []
     },
     "lib/media/helja-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2147059,
       "exportedPath": "lib/media/helja-portrait.png",
       "dependencies": []
     },
     "lib/media/romero-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2662966,
       "exportedPath": "lib/media/romero-portrait.png",
       "dependencies": []
     },
     "locations/assets/karte-der-silbernen-weite.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1628300,
       "exportedPath": "locations/assets/karte-der-silbernen-weite.png",
       "dependencies": []
     },
     "npcs/eisengrad/assets/baltazar.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1643160,
       "exportedPath": "npcs/eisengrad/assets/baltazar.png",
       "dependencies": []
     },
     "npcs/eisengrad/assets/harbeck-eisenfaust-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2675096,
       "exportedPath": "npcs/eisengrad/assets/harbeck-eisenfaust-portrait.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/portrait-blutfresse.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2419307,
       "exportedPath": "npcs/evil-guys/assets/portrait-blutfresse.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2159625,
       "exportedPath": "npcs/evil-guys/assets/inoffizielles-portrait-blutfresse.png",
       "dependencies": []
     },
     "lib/media/doriana-ring-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2736298,
       "exportedPath": "lib/media/doriana-ring-portrait.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/okrum.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2687495,
       "exportedPath": "npcs/evil-guys/assets/okrum.png",
       "dependencies": []
     },
     "npcs/evil-guys/assets/portrait-rya.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2392247,
       "exportedPath": "npcs/evil-guys/assets/portrait-rya.png",
       "dependencies": []
     },
     "npcs/goldhafen/assets/portrait-fedor-seeblick.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2183773,
       "exportedPath": "npcs/goldhafen/assets/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "npcs/goldhafen/assets/portrait-theoben-rutel.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2114565,
       "exportedPath": "npcs/goldhafen/assets/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "npcs/grenzruh/assets/helja-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2147059,
       "exportedPath": "npcs/grenzruh/assets/helja-portrait.png",
       "dependencies": []
     },
     "npcs/grenzruh/assets/romero-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2662966,
       "exportedPath": "npcs/grenzruh/assets/romero-portrait.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/kronenfels/assets/portrait-franz.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2439677,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-franz.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/kronenfels/assets/portrait-hans.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2610984,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-hans.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/kronenfels/assets/portrait-mafala-unterfuss.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2964798,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/portrait-mafala-unterfuss.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/kronenfels/assets/sheighna-unterfuss-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2729130,
       "exportedPath": "npcs/koenigreich-thalendria/kronenfels/assets/sheighna-unterfuss-portrait.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/unter-den-eichen/assets/abraham-eichenbram-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2383453,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/abraham-eichenbram-portrait.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/unter-den-eichen/assets/marianne-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2633812,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/marianne-portrait.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/unter-den-eichen/assets/miegrimm-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2774363,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/miegrimm-portrait.png",
       "dependencies": []
     },
     "npcs/koenigreich-thalendria/unter-den-eichen/assets/ruediger-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2372340,
       "exportedPath": "npcs/koenigreich-thalendria/unter-den-eichen/assets/ruediger-portrait.png",
       "dependencies": []
     },
     "npcs/rebensund/assets/inoffizielles-portrait-ruben.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1987437,
       "exportedPath": "npcs/rebensund/assets/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "npcs/assets/lawine-mit-vio.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2045948,
       "exportedPath": "npcs/assets/lawine-mit-vio.png",
       "dependencies": []
     },
     "pcs/assets/portrait-odem.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2185375,
       "exportedPath": "pcs/assets/portrait-odem.png",
       "dependencies": []
     },
     "pcs/assets/portrait-rafhorn.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1857222,
       "exportedPath": "pcs/assets/portrait-rafhorn.png",
       "dependencies": []
     },
     "pcs/assets/portrait-vio.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2025287,
       "exportedPath": "pcs/assets/portrait-vio.png",
       "dependencies": []
     },
     "lib/media/portrait-kua-toa.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 750564,
       "exportedPath": "lib/media/portrait-kua-toa.png",
       "dependencies": []
     },
     "sessions/2024/001/wogenwolf-retten-im-beiboot.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1683672,
       "exportedPath": "sessions/2024/001/wogenwolf-retten-im-beiboot.png",
       "dependencies": []
     },
     "lib/media/inoffizielles-portrait-ruben.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1987437,
       "exportedPath": "lib/media/inoffizielles-portrait-ruben.png",
       "dependencies": []
     },
     "lib/media/auge-der-voraussicht.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1593745,
       "exportedPath": "lib/media/auge-der-voraussicht.png",
       "dependencies": []
     },
     "sessions/2024/003/assets/wasserelementar.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 936754,
       "exportedPath": "sessions/2024/003/assets/wasserelementar.png",
       "dependencies": []
     },
     "sessions/2024/004/assets/gestrandete-wogenwolf.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1690334,
       "exportedPath": "sessions/2024/004/assets/gestrandete-wogenwolf.png",
       "dependencies": []
     },
     "lib/media/portrait-fedor-seeblick.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2183773,
       "exportedPath": "lib/media/portrait-fedor-seeblick.png",
       "dependencies": []
     },
     "lib/media/portrait-theoben-rutel.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2114565,
       "exportedPath": "lib/media/portrait-theoben-rutel.png",
       "dependencies": []
     },
     "lib/media/alte-verlassene-miene.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2157022,
       "exportedPath": "lib/media/alte-verlassene-miene.png",
       "dependencies": []
     },
     "sessions/2024/006/assets/cackler.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1235534,
       "exportedPath": "sessions/2024/006/assets/cackler.png",
       "dependencies": []
     },
     "lib/media/eisengrad-inoffiziell.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1860349,
       "exportedPath": "lib/media/eisengrad-inoffiziell.png",
       "dependencies": []
     },
     "lib/media/tempel-von-moradin.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1586350,
       "exportedPath": "lib/media/tempel-von-moradin.png",
       "dependencies": []
     },
     "lib/media/taverne-voller-krug.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2168331,
       "exportedPath": "lib/media/taverne-voller-krug.png",
       "dependencies": []
     },
     "lib/media/baltazar.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1643160,
       "exportedPath": "lib/media/baltazar.png",
       "dependencies": []
     },
     "lib/media/miegrimm-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2774363,
       "exportedPath": "lib/media/miegrimm-portrait.png",
       "dependencies": []
     },
     "lib/media/ruediger-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2372340,
       "exportedPath": "lib/media/ruediger-portrait.png",
       "dependencies": []
     },
     "lib/media/abraham-eichenbram-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2383453,
       "exportedPath": "lib/media/abraham-eichenbram-portrait.png",
       "dependencies": []
     },
     "lib/media/marianne-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2633812,
       "exportedPath": "lib/media/marianne-portrait.png",
       "dependencies": []
     },
     "sessions/2025/011/assets/ork-turm.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2493109,
       "exportedPath": "sessions/2025/011/assets/ork-turm.png",
       "dependencies": []
     },
     "sessions/2025/011/assets/ork-huette.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2901298,
       "exportedPath": "sessions/2025/011/assets/ork-huette.png",
       "dependencies": []
     },
     "lib/media/okrum.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2687495,
       "exportedPath": "lib/media/okrum.png",
       "dependencies": []
     },
     "lib/media/portrait-mafala-unterfuss.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2964798,
       "exportedPath": "lib/media/portrait-mafala-unterfuss.png",
       "dependencies": []
     },
     "lib/media/sheighna-unterfuss-portrait.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2729130,
       "exportedPath": "lib/media/sheighna-unterfuss-portrait.png",
       "dependencies": []
     },
     "sessions/2025/013/assets/pasted-image-20250515232438.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2289814,
       "exportedPath": "sessions/2025/013/assets/pasted-image-20250515232438.png",
       "dependencies": []
     },
     "lib/media/schattenhoefe.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2200186,
       "exportedPath": "lib/media/schattenhoefe.png",
       "dependencies": []
     },
     "lib/media/portrait-hans.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2610984,
       "exportedPath": "lib/media/portrait-hans.png",
       "dependencies": []
     },
     "sessions/2025/014/assets/holz-vor-der-huette.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2806942,
       "exportedPath": "sessions/2025/014/assets/holz-vor-der-huette.png",
       "dependencies": []
     },
     "lib/media/portrait-franz.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2439677,
       "exportedPath": "lib/media/portrait-franz.png",
       "dependencies": []
     },
     "lib/media/portrait-rya.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 2392247,
       "exportedPath": "lib/media/portrait-rya.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 110893,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 112536,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1748898483470,
-      "sourceSize": 15919,
+      "modifiedTime": 1749839646230,
+      "sourceSize": 16361,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 66509,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 394,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1748898483470,
+      "modifiedTime": 1749839646230,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
